@@ -6,7 +6,7 @@ import random
 import string
 from bs4 import BeautifulSoup
 
-BASE = "https://hypervent-referral-api.onrender.com"
+BASE = "https://referral-backend-production-55e6.up.railway.app"
 DEFAULT_PASSWORD = "pepekkuda123"
 OUTFILE = "hypervent.txt"
 
@@ -191,4 +191,5 @@ if __name__ == "__main__":
 
         # delay sebelum akun berikutnya
         time.sleep(10)
+
 
